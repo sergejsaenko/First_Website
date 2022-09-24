@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DidYouKnow</title>
+</head>
+<body bgcolor="black" text="white">
+    <center>
+        <!-- Creates a button with a function to define and a text in the button -->
+        <button id="b1" onclick="myFunction()">Click me!</button>
+
+        <!-- Creates a video to use later on -->
+        <video id="v1" loop>
+            <source src="test.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+        <!-- Creates text IDs to use later on -->
+        <p id="d1"></p>
+        <p id="d2"></p>
+        <p id="d3"></p>
+        <p id="d4"></p>
+
+        <!-- main script. Function gets defined -->
+            <!-- First it tells to show the video and play it.-->
+            <!-- Then the button gets removed -->
+            <!-- Afterwards the text IDs are getting used and text is attached to them -->
+        <script>
+            function myFunction(){
+                var vid=document.getElementById("v1")
+                vid.play()
+                var button=document.getElementById("b1")
+                button.remove()
+                document.getElementById("d1").innerHTML="---"
+                document.getElementById("d2").innerHTML="Send nudes"
+                document.getElementById("d3").innerHTML="---"
+                document.getElementById("d4").innerHTML="Jetzt geh wieder arbeiten Sarah"
+            }
+        </script>
+    </center>
+</body>
+</html>
