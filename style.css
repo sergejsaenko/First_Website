@@ -109,9 +109,9 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px); 
 }
 .background_video{
-  position: fixed;
+  position: absolute;
   right: 0px;
-  bottom: 0px;
+  bottom: -10px;
   min-width: 100%;
   min-height: 100%;
   z-index: -100;
