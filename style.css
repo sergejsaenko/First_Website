@@ -61,6 +61,7 @@ nav{
   body{
     overflow-x: hidden;
     overflow-y: hidden;
+    width:100%
   }
   .nav-links{
     position: absolute;
