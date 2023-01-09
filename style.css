@@ -61,7 +61,7 @@ nav{
     overflow-y: hidden;
   }
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:768px){
   body{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -110,7 +110,7 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px); 
 }
 .background_video{
-  position: absolute;
+
   right: 0px;
   bottom: 0px;
   min-width: 100%;
