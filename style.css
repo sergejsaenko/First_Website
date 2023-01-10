@@ -106,8 +106,8 @@ nav{
 }
 #volume-button{
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
 }
 #volume-button::before {
   content: "";
@@ -117,8 +117,8 @@ nav{
   top: 50%;
   left: 50%;
   display: inline-block;
-  width: 20px; /* or any width you want*/
-  height: 20px; /* or any height you want */
+  width: 30px; /* or any width you want*/
+  height: 30px; /* or any height you want */
 
 }
 .volume-slider-container {
