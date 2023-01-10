@@ -2,6 +2,8 @@ const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
+  const video = document.querySelector('.background_video');
+  const volumeSlider = document.querySelector('#volume-slider');
 
   burger.addEventListener("click", () => {
     //Toggle Nav
@@ -19,6 +21,14 @@ const navSlide = () => {
     //Burger Animation
     burger.classList.toggle("toggle");
   });
+
+  volumeSlider.addEventListener('input', function() {
+  video.volume = this.value;
+  if (video.muted){
+    video.muted = false;
+  }
+});
+
 };
 
 navSlide();
